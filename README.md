@@ -44,6 +44,6 @@ param_grid = {
 
 ## 3. 结果表现   
 ### 3.1 训练完毕后会生成梯度下降曲线，跟踪误差，学习率下降曲线和特征分布柱状图，自动保存在工作目录下的result目录下，可以很直观的查看各种参数组合的训练效果
-!(results/images/training_process_lr1.7970102999144342e-06_l1_0.1_batch_30000_patience_100_20241118_102702.png)
+![](results/images/training_process_lr1.7970102999144342e-06_l1_0.1_batch_30000_patience_100_20241118_102702.png)
 ### 3.2 使用参数搜索网络传入多组训练参数时，在训练完毕后，可以自动生成对应参数和拟合结构的csv文件，写入方法为查重后新增，构建结果数据库
 ### 3.3 训练时会生成epoch，total_loss,val_loss和lr的log文件        
