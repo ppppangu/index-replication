@@ -28,9 +28,9 @@ param_grid = {
           |————main2.py                #主文件                            
      |————results
           |————images         
-               |————training_process_lr1.7970102999144342e-06_l1_0.1_batch_30000_patience_100_20241118_102702
-               |———— ......
-          |————training——result.csv    #各参数组合下训练结果记录                  
+               |————training_process_lr1.7970102999144342e-06_l1_0.1_batch_30000_patience_100_20241118_102702        #参数搜索网络中某一组合对应的训练可视化图
+               |————...... 
+          |————training——result.csv    #各参数组合下训练结果记录                   
       
 ```
 
